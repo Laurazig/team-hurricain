@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      class="contact"
+      action="https://formspree.io/f/mlezwjvj"
+      method="post"
+    >
+      <label for="salut"></label>
+      <h1>My React Form</h1>
+      <select name="Salutation" id="salut">
+        <option value="Miss">Ms.</option>
+        <option value="Mister">Mr.</option>
+      </select>
+      <label for="firstName"></label>
+      <input
+        type="text"
+        name="Name"
+        id="name"
+        minlength="3"
+        required
+        placeholder="First name"
+      />
+      <label for="lastName"></label>
+      <input
+        type="text"
+        name="Name"
+        id="name"
+        minlength="3"
+        required
+        placeholder="Last name"
+      />
+
+      <label for="email"></label>
+      <input
+        type="email"
+        name="Email"
+        id="email"
+        required
+        placeholder="Email"
+      />
+      <label for="city"></label>
+      <input
+        type="text"
+        name="City"
+        id="city"
+        minlength="3"
+        placeholder="City"
+      />
+      <label for="country"></label>
+      <input
+        type="text"
+        name="County"
+        id="country"
+        minlength="3"
+        placeholder="Country"
+        required
+      />
+      <label for="code"></label>
+      <input
+        type="number"
+        name="Dial Code"
+        id="code"
+        minlength="3"
+        placeholder="Dial Code"
+      />
+      <label for="phone"></label>
+      <input
+        type="number"
+        name="Phone Nr."
+        id="phone"
+        minlength="5"
+        placeholder="Phone Number"
+      />
+      <label for="comment">Comment</label>
+      <input
+        type="textarea"
+        name="Comment"
+        id="comment"
+        required
+        placeholder="Please giving your comment."
+      />
+      <button class="submit">Submit</button>
+    </form>
+  </body>
+</html>
