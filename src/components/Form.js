@@ -8,9 +8,11 @@ const Form = () =>{
 
     return(
         <div>
+            <h1>form</h1>
             <form>
        <h1 className = ""></h1>         
             </form>
         </div>
     )
 }
+export default Form
