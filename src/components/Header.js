@@ -1,21 +1,22 @@
-import React, {useState} from "react";
-import "./Header.scss"
+import React, { useState } from "react";
+import "./Header.css";
 
-const Header = ()=> {
-    const [ menuOpen, setMenuOpen ] = useState(false);
-    const onMenuClick = () => {
-        setMenuOpen(!menuOpen)
-    }
-  
+const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const onMenuClick = () => {
+    setMenuOpen(!menuOpen);
+  };
 
-return(
+  return (
     <div>
-         <header className={menuOpen?"nav-open": ""}>
-                <div className="topnav" id="myTopnav">
-                <a href="#home" className="active">Home</a>
-                <div className="nav-toggle">
-                <button onClick={onMenuClick} className="hamburger"></button>
-                </div>
+      <header className={menuOpen ? "nav-open" : ""}>
+        <div className="topnav" id="myTopnav">
+          <a href="#home" className="active">
+            Home
+          </a>
+          <div className="nav-toggle">
+            <button onClick={onMenuClick} className="hamburger"></button>
+          </div>
 
                 <a href="#news">News</a>
                 
@@ -41,8 +42,11 @@ return(
                 <a href="contact_form.html">Contact</a>
                 <a href="about.html">About</a>
             </div>
-        </header>
+          </div>
+          <a href="about.html">About</a>
+        </div>
+      </header>
     </div>
-)
-}
-export default Header
+  );
+};
+export default Header;
