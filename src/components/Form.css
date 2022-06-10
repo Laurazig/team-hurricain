@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+:root {
+  font-size: 62 50%;
+  --bg-color: darkcyan;
+  --font-color: white;
+  --hover-color: darkblue;
+}
+
+*,
+*::after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(5, 88, 5);
+}
+h1 {
+  text-align: center;
+  padding: 1.5rem;
+}
+.contact {
+  width: 40rem;
+  height: 35rem;
+  margin: 1rem auto;
+  background-color: goldenrod;
+  outline: 3px solid rgb(158, 31, 9);
+  outline-offset: 7px;
+  padding: 1rem;
+}
+input,
+select {
+  margin: 1rem 0.5rem;
+  height: 2rem;
+}
+.sInput {
+  width: 11rem;
+}
+.mInput {
+  width: 17rem;
+}
+.bInput {
+  width: 35rem;
+}
+.cv {
+  background-color: white;
+  padding: 0.35rem;
+}
+.submit {
+  display: block;
+  margin: 1rem auto;
+}
