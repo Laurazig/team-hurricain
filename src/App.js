@@ -8,7 +8,9 @@ import Submit from "./components/Submit";
 const App = () => {
     return (
         <div className="container">
-            <Header  />
+            <Header />
+            <Submit />
+            <Form />
         </div>
     );
 }
