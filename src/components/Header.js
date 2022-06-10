@@ -6,11 +6,7 @@ const Header = ()=> {
     const onMenuClick = () => {
         setMenuOpen(!menuOpen)
     }
-
-
- 
-
-        
+  
 
 return(
     <div>
@@ -22,36 +18,27 @@ return(
                 </div>
 
                 <a href="#news">News</a>
-                <a href="contact_form.html">Contact</a>
+                
                 <div className="dropdown">
-                <button className="dropbtn">Teams</button>
+                <button className="dropbtn">Services</button>
                 <div className="dropdown-content">
                     <a
-                    href="https://www.linkedin.com/in/feichengmarketing/"
+                    href="https://k2partnering.com/careers-k2/"
                     target="_blank"
                     >
-                    Fei Cheng</a
+                    WebDesign</a
                     >
                     <a
-                    href="https://www.linkedin.com/in/maria-papadaki74/"
+                    href="https://www.griddigitalmarketing.com/"
                     target="_blank"
                     >
-                    Maria Papadaki</a
+                    Online Marketing</a
                     >
-                    <a
-                    href="https://www.linkedin.com/in/thanh-le-249415240/"
-                    target="_blank"
-                    >
-                    Thanh Le</a
-                    >
-                    <a
-                    href="https://www.linkedin.com/in/laura-hesse-a998048a/"
-                    target="_blank"
-                    >
-                    Laura Hesse</a
-                    >
+                    
                 </div>
                 </div>
+                <a href="#careers">Careers</a>
+                <a href="contact_form.html">Contact</a>
                 <a href="about.html">About</a>
             </div>
         </header>
